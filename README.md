@@ -1,13 +1,13 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
+
 
 [![](https://img.shields.io/pypi/v/django-configurations-google-analytics.svg?maxAge=3600)](https://pypi.org/project/django-configurations-google-analytics/)
 [![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
-[![Travis](https://api.travis-ci.org/andrewp-as-is/django-configurations-google-analytics.py.svg?branch=master)](https://travis-ci.org/andrewp-as-is/django-configurations-google-analytics.py/)
+[![](https://github.com/andrewp-as-is/django-configurations-google-analytics.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/django-configurations-google-analytics.py/actions)
 
-#### Installation
+### Installation
 ```bash
 $ [sudo] pip install django-configurations-google-analytics
 ```
@@ -25,7 +25,7 @@ class Base(GoogleAnalyticsConfiguration,...):
 DJANGO_GA_ID="UA-XXXXXXXX-Y"
 ```
 
-#### Templates
+##### Templates
 ```html
 {% load google_analytics %}
 ...
@@ -36,5 +36,5 @@ DJANGO_GA_ID="UA-XXXXXXXX-Y"
 +   [django-configurations](https://github.com/jazzband/django-configurations)
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>
