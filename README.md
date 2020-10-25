@@ -14,9 +14,10 @@ $ [sudo] pip install django-configurations-google-analytics
 
 ##### `settings.py`
 ```python
-from django_configurations_google_analytics import GoogleAnalyticsConfiguration
+from configurations import Configuration
+from django_configurations_google_analytics import GoogleAnalyticsMixin
 
-class Base(GoogleAnalyticsConfiguration,...):
+class Base(GoogleAnalyticsMixin,Configuration):
     # GA_ID = 'UA-XXXXXXXX-Y'
 ```
 
